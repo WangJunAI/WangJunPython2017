@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1d27585-5380-4da4-921f-bca20d0a0578</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Test001.py</StartupFile>
+    <StartupFile>Test004.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Test001.py" />
+    <Compile Include="Test002.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test003.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test004.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
