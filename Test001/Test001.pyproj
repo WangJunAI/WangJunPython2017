@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1d27585-5380-4da4-921f-bca20d0a0578</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Test004.py</StartupFile>
+    <StartupFile>Test005.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Test004.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test005.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
